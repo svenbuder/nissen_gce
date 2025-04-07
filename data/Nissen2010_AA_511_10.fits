@@ -1,0 +1,204 @@
+SIMPLE  =                    T / Standard FITS Format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    0 / No Image --- just extension(s)                 EXTEND  =                    T / There are standard extensions                  ORIGIN  = 'xml2fits_v1.95'     / Converted from XML-Astrores to FITS                                     e-mail: question@simbad.u-strasbg.fr                   COMMENT  ARG='-rm'                                                              LONGSTRN= 'OGIP 1.0'           / Long string convention (&/CONTINUE) may be usedDATE    = '2021-04-12'         / Written on 2021-04-12:23:51:41 (GMT)                                        by: www-data@vizier.astro.unistra.fr                        **********************************************************                          EXCERPT from catalogues stored in VizieR (CDS)                                             with the following conditions:                                   **********************************************************                                                                                                      VizieR Astronomical Server vizier.u-strasbg.fr                                  Date: 2021-04-12T23:51:41 [V1.99+ (14-Oct-2013)]                                Explanations and Statistics of UCDs: See LINK below                             In case of problem, please report to: cds-question@unistra.fr                                                                                          INFO    = 'votable-version=1.99+ (14-Oct-2013)' / #                             INFO    = '-ref=VIZ6074dbc510a30a' / #                                          INFO    = '-out.max=unlimited' / #                                              Q-PARAMS=                   42 / Number of queryParameters (followed by list)            -oc.form=dec                                                                    -out.max=unlimited                                                              #out.form=FITS (binary) Table                                                   -out.all=2                                                                      -out.add=_r                                                                     -out.add=_RAJ,_DEJ                                                              -sort=_r                                                                        -nav=cat:J/A+A/511/L10&tab:{J/A+A/511/L10/stars}&tab:{J/A+A/511/L10/dat         a}&key:source=J/A+A/511/L10&HTTPPRM:&-out.max=50&-out.form=HTML                 Table&-out.add=_r&-out.add=_RAJ,_DEJ&-sort=_r&-oc.form=sexa&                    -c.eq=J2000                                                                     -c.r= 2                                                                         -c.u=arcmin                                                                     -c.geom=r                                                                       -source=J/A+A/511/L10/stars,J/A+A/511/L10/data                                  -order=I                                                                        -out=Name                                                                       -out=m_Name                                                                     -out=RAJ2000                                                                    -out=DEJ2000                                                                    -out=Bmag                                                                       -out=Vmag                                                                       -out=SpType                                                                     -out=Inst                                                                       -out=Inst2                                                                      -out=Simbad                                                                     Simbad=Simbad                                                                   -out.all=2                                                                      -out=Teff                                                                       -out=logg                                                                       -out=[Fe/H]                                                                     -out=ksi                                                                        -out=[Na/Fe]                                                                    -out=[Mg/Fe]                                                                    -out=[Si/Fe]                                                                    -out=[Ca/Fe]                                                                    -out=[Ti/Fe]                                                                    -out=[Cr/Fe]                                                                    -out=[Ni/Fe]                                                                    -out=U(LSR)                                                                     -out=V(LSR)                                                                     -out=W(LSR)                                                                     -out=Class                                                                      -out.all=2                                                                      #                                                                      INFO    = 'CatalogsExamined=2'                                                           2 catalogues with potential matches were examined.                                                                                                     END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / Binary Table Extension                         BITPIX  =                    8 / binary data                                    NAXIS   =                    2 / Simple 2-D matrix                              NAXIS1  =                   85 / Number of bytes per record                     NAXIS2  =                   94 / Number of records                              PCOUNT  =                    0 / Get rid of random parameters                   GCOUNT  =                    1 / Only one group (isn't it obvious?)             TFIELDS =                   13 / Number of data fields (columns)                CDS-CAT = 'J/A+A/511/L10'      / Catalogue designation in CDS nomenclature               Abundances and space velocities of 94 stars (Nissen+, 2010)            EXTNAME = 'J_A_A_511_L10_stars' / Identification of the table                   CDS-NAME= 'J/A+A/511/L10/stars' / Table name in METAtab                                  Star list                                                              UCD__1  = 'pos.eq.ra'          / ................................byte#0         TDISP1  = 'F10.6   '           / Display Fortran Format                         TFORM1  = 'D       '           / 64-bit floating-point (double precision)       TTYPE1  = '_RAJ2000'           / Right ascension (FK5, Equinox=J2000.0)                                          (computed by VizieR, not part of the original                                   data. The format may include more digits than                                   the original data because of internal accuracy                                  requirements in VizieR and across other CDS                                     services)                                      TUNIT1  = 'deg     '           / degree                                         UCD__2  = 'pos.eq.dec'         / ................................byte#8         TDISP2  = 'F10.6   '           / Display Fortran Format                         TFORM2  = 'D       '           / 64-bit floating-point (double precision)       TTYPE2  = '_DEJ2000'           / Declination (FK5, Equinox=J2000.0) (computed by                                 VizieR, not part of the original data. The                                      format may include more digits than the                                         original data because of internal accuracy                                      requirements in VizieR and across other CDS                                     services)                                      TUNIT2  = 'deg     '           / degree                                         UCD__3  = 'meta.record'        / ................................byte#16        TDISP3  = 'I8      '           / Display Fortran Format                         TFORM3  = 'J       '           / 32-bit integer                                 TTYPE3  = 'recno   '           / Record number assigned by the VizieR team.                                      Should Not be used for identification. (link)  UCD__4  = 'meta.id;meta.main'  / ................................byte#20        TDISP4  = 'A10     '           / Display Fortran Format                         TFORM4  = '10A     '           / Ascii string                                   TTYPE4  = 'Name    '           / Simbad name                                    UCD__5  = 'meta.code.multip'   / ................................byte#30        TDISP5  = 'A1      '           / Display Fortran Format                         TFORM5  = 'A       '           / Ascii string                                   TTYPE5  = 'm_Name  '           / Multiplicity index on Name (link)              UCD__6  = 'pos.eq.ra;meta.main' / ...............................byte#31        TDISP6  = 'F10.4   '           / Display Fortran Format                         TFORM6  = 'D       '           / 64-bit floating-point (double precision)       TTYPE6  = 'RAJ2000 '           / Simbad Hour of Right Ascension (J2000.0)       TUNIT6  = 'deg     '           / degree                                         UCD__7  = 'pos.eq.dec;meta.main' / ..............................byte#39        TDISP7  = 'F9.4    '           / Display Fortran Format                         TFORM7  = 'D       '           / 64-bit floating-point (double precision)       TTYPE7  = 'DEJ2000 '           / Simbad Degree of Declination (J2000.0)         TUNIT7  = 'deg     '           / degree                                         UCD__8  = 'phot.mag;em.opt.B'  / ................................byte#47        TDISP8  = 'F6.3    '           / Display Fortran Format                         TFORM8  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE8  = 'Bmag    '           / Simbad B band magnitude                        TUNIT8  = 'mag     '           / magnitude                                      UCD__9  = 'phot.mag;em.opt.V'  / ................................byte#51        TDISP9  = 'F6.3    '           / Display Fortran Format                         TFORM9  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE9  = 'Vmag    '           / Simbad V band magnitude                        TUNIT9  = 'mag     '           / magnitude                                      UCD__10 = 'src.spType'         / ................................byte#55        TDISP10 = 'A8      '           / Display Fortran Format                         TFORM10 = '8A      '           / Ascii string                                   TTYPE10 = 'SpType  '           / Simbad MK spectral type                        UCD__11 = 'instr.setup'        / ................................byte#63        TDISP11 = 'A8      '           / Display Fortran Format                         TFORM11 = '8A      '           / Ascii string                                   TTYPE11 = 'Inst    '           / Instrument used                                UCD__12 = 'meta.id;instr'      / ................................byte#71        TDISP12 = 'A8      '           / Display Fortran Format                         TFORM12 = '8A      '           / Ascii string                                   TTYPE12 = 'Inst2   '           / Second Instrument used                         UCD__13 = '        '           / ................................byte#79        TDISP13 = 'A6      '           / Display Fortran Format                         TFORM13 = '6A      '           / Ascii string                                   TTYPE13 = 'Simbad  '           / Simbad column added by the CDS                 END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             @f[ÌÌÌÌÌÀ6cÊ†Aü   BD-21 3420 @f[ÌÌÌÌÌÀ6cÊ†AýA*¸RA"ffF5      VLT/UVES        Simbad@Yì¿%‹òXÀ@ß›à$h¬   CD-33 3337 @Yì¿%‹òXÀ@ß›à$h¬AõÃAzáF5      VLT/UVES        Simbad@dåX¿%‹òÀF!5y¾E   CD-43 6810 @dåX¿%‹òÀF!5y¾FA&{A¸F8      VLT/UVES        Simbad@\dõÂ\(ÀF£©‡eC    CD-45 3283 @\dõÂ\(ÀF£©‡eC A1G®A&áHG8V-VI  VLT/UVES        Simbad@cIü–/ÉbÀJ>ŠÏWœ   CD-51 4628 @cIü–/ÉbÀJ>ŠÏW›A'\)A zásdF5    VLT/UVES        Simbad@Z§»»»»¼ÀLº¡n\   CD-57 1633 @Z§»»»»»ÀLº¡n\A £×A£×F8      VLT/UVES        Simbad@8/Ébü–ÀNŠÅù,_“   CD-61 282  @8/Ébü•ÀNŠÅù,_’A*{A!™šG0      VLT/UVES        Simbad@Gî"""""@)='Ò}'Ó   G05-19     @Gî""""!@)='Ò}'ÒA<QìA1ë…G:      VLT/UVES        Simbad@IõiÐ6@5°[¯   	G05-40     @IõiÐ6œ@5°[°A5ÂA,£×G0      VLT/UVES        Simbad@t¶¶iÏ@(ÀÚt§@   
+G18-28     @t¶¶iÏ@(ÀÚt§@A#
+=AÌÍG3      VLT/UVES        Simbad@tênîîîî@ äDDDDD   G18-39     @tênîîîî@ äDDDDDA-p¤A&{G0      VLT/UVES        Simbad@p­ÝÝÝÝÝÀ!\(õÂ   G20-15     @p­ÝÝÝÝÝÀ!\(õÂA2áHA)p¤F8      VLT/UVES        Simbad@ahˆˆˆˆˆ@333331   G46-31     @ahˆˆˆˆˆ@333332A6=qA-Â        VLT/UVES        Simbad@i$záG¬@4tÃ²¡   G63-26     @i$záG­@4tÃ²¡AIë…ABáHsd:F    VLT/UVES        Simbad@kšffffe@O¤úO¤ø   G66-22     @kšffffe@O¤úO¤ùA2áHA'…G6V     VLT/UVES        Simbad@OÞü–/ÉbÀ…g‰«Íð   G82-05     @OÞü–/ÉbÀ…g‰«ÍïA4QìA)™šG::     VLT/UVES        Simbad@\û»»»»¼¿±#Eg‰«Í   G112-43    @\û»»»»»¿±#Eg‰«ÍA*ffA#33sd:F    VLT/UVES        Simbad@\ûÂ\(ö¿°HÑYâjô   G112-44    @\ûÂ\(õ¿°HÑYâjóA;×
+A4  sd:F    VLT/UVES        Simbad@a5ü–/ÉbÀk…¸Që   G114-42    @a5ü–/ÉbÀk…¸QêATzáAK×
+G:      VLT/UVES        Simbad@fÂ\(õ@9‰bü–/Ç   G121-12    @fÂ\(õ@9‰bü–/ÈA-¸A%™šF6      VLT/UVES        Simbad@t_Î´è@;c×
+=p¢   G188-22    @t_Î´è@;c×
+=p£A(QìA"ffF8      VLT/UVES        Simbad@@Õ~Kä°¿ó8ãŽ8ã   G159-50    @@Õ~Kä±¿ó8ãŽ8ãŽA“AVG1V     VLT/UVES        Simbad@#D§@ÚsÀ žKä±   HD3567     @#D§@ÚsÀ žKä±~A\)A(öF5V     VLT/UVES        Simbad@E%‹òX¾@&½p£×
+=   HD17820    @E%‹òX¾@&½p£×
+=A¸RA{G5      VLT/UVES        Simbad@K‹Ébü–1À	¼M^o€‘   HD22879    @K‹Ébü–/À	¼M^o€‘@ç\)@×®F9V     VLT/UVES        Simbad@N7Ébü–0ÀLš}'Ò}(   HD25704    @N7Ébü–/ÀLš}'Ò}'A
+ffA™šF7V     VLT/UVES        Simbad@Z*DDDDC¿ÞÁlÁl   HD51754    @Z*DDDDC¿ÞÁlÁlAoA$ÝG0      VLT/UVES        Simbad@\ Út§AÀCu0ì¨c   HD59392    @\ Út§@ÀCu0ì¨cA"¸RA33F0V     VLT/UVES        Simbad@`ÕÚt§@À0!ý¹u0í   HD76932    @`ÕÚt§@À0!ý¹u0ì@Ìzá@»…F7-8IV-VVLT/UVES        Simbad@døä±~JÀP[W›à$i   HD97320    @døä±~JÀP[W›à$hA
+ffAffF3V     VLT/UVES        Simbad@fdÌÌÌÌÍÀ5k`¶`´   HD103723   @fdÌÌÌÌÌÀ5k`¶`µA)p¤A!¸F5/F6V  VLT/UVES        Simbad@f«Që…·À:˜vT2í    HD105004   @f«Që…·À:˜vT2íA,QìA#\)sd:F8   VLT/UVES        Simbad@fùiÐ6À$Ÿÿÿÿÿÿ   !HD106516   @fùiÐ6À$Ÿÿÿÿÿÿ@Ò=q@Ã…F5V     VLT/UVES        Simbad@h*iÐ6œÀ2…°[°Z   "HD111980   @h*iÐ6œÀ2…°[°ZA\A{F7V     VLT/UVES        Simbad@h
+=p£ÖÀCB""""!   #HD113679   @h
+=p£ÖÀCB""""!A$õÃA33G2/G3V  VLT/UVES        Simbad@hÂ m:Ó@1„h¬ñ5y   $HD114762  A@hÂ m:Ó@1„h¬ñ5y@û33@é™šF9V     VLT/UVES        Simbad@iýbü–/ÈÀL·ÀHÑYá   %HD120559   @iýbü–/ÈÀL·ÀHÑYáA
+{@ÿ
+=G5Vw... VLT/UVES        Simbad@j¿%‹òYÀGDúO¤úQ   &HD121004   @j¿%‹òXÀGDúO¤úOA=qA£×G2V     VLT/UVES        Simbad@kQë…·À2i>“é>’   'HD126681   @kQë…·À2i>“é>“AáHA¸G3V     VLT/UVES        Simbad@l£×
+=pÀ6Eg‰«Ì   (HD132475   @l£×
+=pÀ6Eg‰«ÍA™šA	¸F5/F6V  VLT/UVES        Simbad@nóÌÌÌÌË@¶iÐ7   )HD148816   @nóÌÌÌÌÌ@¶iÐ6@ùë…@è£×F8V     VLT/UVESNOT/FIESSimbad@pÚ‘À*1ÇqÇ   *HD163810   @pÚ‘À*1ÇqÇA#×
+Aë…G3V     VLT/UVES        Simbad@q¹‹òX¿%ÀkÍð4W   +HD175179   @q¹‹òX¿%ÀkÍð4VAë…A£×G0      VLT/UVES        Simbad@raG®z¿ã
+=p£×
+   ,HD179626   @raG®z¿ã
+=p£×
+A7LAýôF7V-VI  VLT/UVESNOT/FIESSimbad@rÄiÐ6œÀ(‚Ø-‚Ø,   -HD189558   @rÄiÐ6œÀ(‚Ø-‚Ø-AQì@÷
+=G0/G1V  VLT/UVESNOT/FIESSimbad@sbü–/ÉÀ5^Üº˜vR   .HD193901   @sbü–/ÉÀ5^Üº˜vSA33A
+¸RF7V     VLT/UVESNOT/FIESSimbad@s(Ëä±~@"æfffff   /HD194598   @s(Ëä±~@"æfffffA™šAÂF7V-VI  VLT/UVESNOT/FIESSimbad@s¨‘ÀHíË©‡   0HD199289   @s¨‘ÀHíË©‡A¸AÌÍF5V     VLT/UVES        Simbad@tE»»»»»À;¢¡n[   1HD205650   @tE»»»»»À;¢¡n\Ap¤A  F8V     VLT/UVES        Simbad@uÔUUUUUÀ+³ÄÕæø   2HD219617   @uÔUUUUUÀ+³ÄÕæøA
+{A\F8IV    VLT/UVES        Simbad@v>S m:À±~Kä±   3HD222766   @v>S m:À±~Kä°A,(öA!ÂG0      VLT/UVES        Simbad@S_33332@:áG®z   4HD241253   @S_33332@:áG®zA#×
+A…G0      VLT/UVES        Simbad@OÒîîîîï@6Yâjó|   5HD284248   @OÒîîîîî@6Yâjó|A\A…F2      VLT/UVES        Simbad@Ißä±~K@7ÆÓ m:   6G05-36     @Ißä±~K@7ÆÓ m:A5ÂA-G®F5      NOT/FIES        Simbad@gWü–/Éa?ùÊ†Aýº   7G13-38     @gWü–/Éb?ùÊ†Aý¹A3®A((öF8      NOT/FIES        Simbad@m:Ó l@–ÁlÁk   8G15-23     @m:Ó l@–ÁlÁkA:¸RA/\)K:...   NOT/FIES        Simbad@mòzáG®@ iÐ6i   9G16-20     @mòzáG®@ iÐ6iA6\A,£×        NOT/FIES        Simbad@q|¥‹òX¿?¾Üº˜vT0   :G21-22     @q|¥‹òX¿?¾Üº˜vT1A4záA,QìG4      NOT/FIES        Simbad@s£×
+=p@ $h¬ñ4   ;G24-13     @s£×
+=p@ $h¬ñ5A,  A!G®G4      NOT/FIES        Simbad@saÅù,_?áÇqÇq   <G24-25     @saÅù,_?áÇqÇqA3®A)ÂG0      NOT/FIES        Simbad@që…¸NÀËä±~I   =G31-55     @që…¸QÀËä±~JA2ffA)™šG:      NOT/FIES        Simbad@b¿%‹òX@<g
+=p£×   >G49-19     @b¿%‹òX@<g
+=p£ÖA3
+=A)G®G5      NOT/FIES        Simbad@c›:Ó m?öffffff   ?G53-41     @c›:Ó m?öffffffA8ÌÍA1p¤sd:F8   NOT/FIES        Simbad@eL®záG@22"""""   @G56-30     @eL®záG@22""""!A8  A/®G0      NOT/FIES        Simbad@eZ(õÂ[@3äÕæø	   AG56-36     @eZ(õÂ[@3äÕæø	A((öA QìG0      NOT/FIES        Simbad@e¤‹òX¿%@%Î]L;*   BG57-07     @e¤‹òX¿%@%Î]L;*A+®A"{G0V     NOT/FIES        Simbad@CG
+=p£Ö@@€-‚Ø-‚   CG74-32     @CG
+=p£Ö@@€-‚Ø-‚A2{A(záG0      NOT/FIES        Simbad@CËwwwww@n]L:   DG75-31     @CËwwwww@n]L:A/×
+A(záF8      NOT/FIES        Simbad@N}~Kä°@CÞŠÏW›   EG81-02     @N}~Kä°@CÞŠÏW›A4QìA+\)F8      NOT/FIES        Simbad@QË:Ó l@9ï¤úO¤ø   FG85-13     @QË:Ó m@9ï¤úO¤ùA,záA"ffG0      NOT/FIES        Simbad@YïiÐ6@AÂöåÔ   GG87-13     @YïiÐ6œ@AÂöåÔA8ÌÍA1¸sd:F2   NOT/FIES        Simbad@A/Ébü–@;iÐ6j   HG94-49     @A/Ébü–@;iÐ6iA0õÃA&ffG0      NOT/FIES        Simbad@S§@Út@D ì¨dÜ   IG96-20     @S§@Út@D ì¨dÛA!G®A\F8      NOT/FIES        Simbad@W]G®zà@@µg‰«Íï   JG98-53     @W]G®zà@@µg‰«ÍïA:ffA2=qF8      NOT/FIES        Simbad@U7N´è@›N´è   KG99-21     @U7N´è@›N´èA0  A%p¤G0      NOT/FIES        Simbad@efffff@AÝL;*   LG119-64    @efffff@AÝL;*A"áHA  G0      NOT/FIES        Simbad@rLiÐ6@BŽ8ãŽ9   MG125-13    @rLiÐ6@BŽ8ãŽ8A*áHA#33F1      NOT/FIES        Simbad@tÿEù,_’@8dzáG®   NG127-26    @tÿEù,_’@8dzáG®A333A)¸F9      NOT/FIES        Simbad@iæòX¿%‹@;«`¶`´   OG150-40    @iæòX¿%‹@;«`¶`µA0õÃA+33sd:F9   NOT/FIES        Simbad@bM
+=p£ÖÀ²¡n^   PG161-73    @bM
+=p£ÖÀ²¡n]A5G®A-p¤G:      NOT/FIES        Simbad@p‰
+=p£Ö@2Ž“é>“é   QG170-56    @p‰
+=p£Ö@2Ž“é>“éA$QìA£×F6V     NOT/FIES        Simbad@7˜6iÏ@H^Üº˜vT   RG172-61    @7˜6iÏ@H^Üº˜vSA9ë…A.=qK0      NOT/FIES        Simbad@f±~Kä@IpãŽ8ãŽ   SG176-53    @f±~Kä@IpãŽ8ãA'33AffsdG0    NOT/FIES        Simbad@nÅù,_’@E‰«Íð   TG180-24    @nÅù,_’@E‰«ÍðA%G®A™šF5      NOT/FIES        Simbad@s¼hN´@={rêaÙP   UG187-18    @s¼hN´@={rêaÙPA+®A!¸G0      NOT/FIES        Simbad@Y{ù,_’Å@MRO¤úO¤   VG192-43    @Y{ù,_’Å@MRO¤úO¤A,  A%¸sd:F2   NOT/FIES        Simbad@t*|–/Éb@Hnîîîîî   WG232-18    @t*|–/Éb@HnîîîîîA4QìA)™šG2V:    NOT/FIES        Simbad@pzß’Åù,@Ê†Aý¹   XHD159482   @pzß’Åù,@Ê†Aý¹A33A=qG0V     NOT/FIES        Simbad@pŽuÂ\(@B—‰«Íð   YHD160693   @pŽuÂ\(@B—‰«ÍðA\)AÂG0V     NOT/FIES        Simbad@qßÇ®záÀ4uÔÃ²¡   ZHD177095   @qßÇ®záÀ4uÔÃ²¡A$QìA=qG6V     NOT/FIES        Simbad@qÒâü–/É@3Ê†Aý   [HD230409   @qÒâü–/É@3Ê†AýA,záA!G®G0      NOT/FIES        Simbad@_6Ó m9@K°[¯   \HD233511   @_6Ó m9@K°[¯A#
+=A\)sdF6    NOT/FIES        Simbad@b™™™™™@Lô¨dÛ–   ]HD237822   @b™™™™™@Lô¨dÛ–A)p¤A\)G3V     NOT/FIES        Simbad@V³ù,_’Å@3\_’Åù,   ^HD250792  A@V³ù,_’Å@3\_’Åù,A^5AõÃG0V     NOT/FIES        Simbad                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          XTENSION= 'BINTABLE'           / Binary Table Extension                         BITPIX  =                    8 / binary data                                    NAXIS   =                    2 / Simple 2-D matrix                              NAXIS1  =                   76 / Number of bytes per record                     NAXIS2  =                  100 / Number of records                              PCOUNT  =                    0 / Get rid of random parameters                   GCOUNT  =                    1 / Only one group (isn't it obvious?)             TFIELDS =                   19 / Number of data fields (columns)                EXTNAME = 'J_A_A_511_L10_data' / Identification of the table                    CDS-NAME= 'J/A+A/511/L10/data' / Table name in METAtab                                   Abundances and space velocities                                        UCD__1  = 'meta.record'        / ................................byte#0         TDISP1  = 'I8      '           / Display Fortran Format                         TFORM1  = 'J       '           / 32-bit integer                                 TTYPE1  = 'recno   '           / Record number assigned by the VizieR team.                                      Should Not be used for identification. (link)  UCD__2  = 'meta.id;instr'      / ................................byte#4         TDISP2  = 'A1      '           / Display Fortran Format                         TFORM2  = 'A       '           / Ascii string                                   TTYPE2  = 'Inst    '           / Simbad column added by the CDS                 UCD__3  = 'meta.id;meta.main'  / ................................byte#5         TDISP3  = 'A10     '           / Display Fortran Format                         TFORM3  = '10A     '           / Ascii string                                   TTYPE3  = 'Name    '           / Object name (link)                             UCD__4  = 'meta.code.multip'   / ................................byte#15        TDISP4  = 'A1      '           / Display Fortran Format                         TFORM4  = 'A       '           / Ascii string                                   TTYPE4  = 'm_Name  '           / Multiplicty index on Name                      UCD__5  = 'phys.temperature.effective' / ........................byte#16        TDISP5  = 'I4      '           / Display Fortran Format                         TFORM5  = 'I       '           / 16-bit (short) integer                         TTYPE5  = 'Teff    '           / Effective temperature                          TUNIT5  = 'K       '           / Kelvin                                         UCD__6  = 'phys.gravity'       / ................................byte#18        TDISP6  = 'F5.2    '           / Display Fortran Format                         TFORM6  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE6  = 'logg    '           / Logarithmic surface gravity                    TUNIT6  = 'cm/s2   '           / centimetre per square second                   UCD__7  = 'phys.abund.Z;arith.ratio' / ..........................byte#22        TDISP7  = 'F5.2    '           / Display Fortran Format                         TFORM7  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE7  = '__Fe_H_ '           / Iron-to-hydrogen ratio                         TUNIT7  = '[Sun]   '           / log[ Solar unit ]                              UCD__8  = 'phys.veloc.microTurb' / ..............................byte#26        TDISP8  = 'F4.1    '           / Display Fortran Format                         TFORM8  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE8  = 'ksi     '           / Micro-turbulence velocity                      TUNIT8  = 'km/s    '           / kilometre per second                           UCD__9  = 'phys.abund'         / ................................byte#30        TDISP9  = 'F5.2    '           / Display Fortran Format                         TFORM9  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE9  = '__Na_Fe_'           / Sodium-to-iron ratio                           TUNIT9  = '[Sun]   '           / log[ Solar unit ]                              UCD__10 = 'phys.abund'         / ................................byte#34        TDISP10 = 'F5.2    '           / Display Fortran Format                         TFORM10 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE10 = '__Mg_Fe_'           / Magnesium-to-iron ratio                        TUNIT10 = '[Sun]   '           / log[ Solar unit ]                              UCD__11 = 'phys.abund'         / ................................byte#38        TDISP11 = 'F5.2    '           / Display Fortran Format                         TFORM11 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE11 = '__Si_Fe_'           / Silicon-to-iron ratio                          TUNIT11 = '[Sun]   '           / log[ Solar unit ]                              UCD__12 = 'phys.abund'         / ................................byte#42        TDISP12 = 'F5.2    '           / Display Fortran Format                         TFORM12 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE12 = '__Ca_Fe_'           / Calcium-to-iron ratio                          TUNIT12 = '[Sun]   '           / log[ Solar unit ]                              UCD__13 = 'phys.abund'         / ................................byte#46        TDISP13 = 'F5.2    '           / Display Fortran Format                         TFORM13 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE13 = '__Ti_Fe_'           / Titanium-to-iron ratio                         TUNIT13 = '[Sun]   '           / log[ Solar unit ]                              UCD__14 = 'phys.abund'         / ................................byte#50        TDISP14 = 'F5.2    '           / Display Fortran Format                         TFORM14 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE14 = '__Cr_Fe_'           / Chromium-to-iron ratio                         TUNIT14 = '[Sun]   '           / log[ Solar unit ]                              UCD__15 = 'phys.abund'         / ................................byte#54        TDISP15 = 'F5.2    '           / Display Fortran Format                         TFORM15 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE15 = '__Ni_Fe_'           / Nickel-to-iron ratio                           TUNIT15 = '[Sun]   '           / log[ Solar unit ]                              UCD__16 = 'phys.veloc;pos.cartesian.x' / ........................byte#58        TDISP16 = 'I4      '           / Display Fortran Format                         TFORM16 = 'I       '           / 16-bit (short) integer                         TTYPE16 = 'U_LSR_  '           / Galactic U-velocity component relative to LSR  TUNIT16 = 'km/s    '           / kilometre per second                           UCD__17 = 'phys.veloc;pos.cartesian.y' / ........................byte#60        TDISP17 = 'I4      '           / Display Fortran Format                         TFORM17 = 'I       '           / 16-bit (short) integer                         TTYPE17 = 'V_LSR_  '           / Galactic V-velocity component relative to LSR  TUNIT17 = 'km/s    '           / kilometre per second                           UCD__18 = 'phys.veloc;pos.cartesian.z' / ........................byte#62        TDISP18 = 'I4      '           / Display Fortran Format                         TFORM18 = 'I       '           / 16-bit (short) integer                         TTYPE18 = 'W_LSR_  '           / Galactiv W-velocity component relative to LSR  TUNIT18 = 'km/s    '           / kilometre per second                           UCD__19 = 'src.class'          / ................................byte#64        TDISP19 = 'A12     '           / Display Fortran Format                         TFORM19 = '12A     '           / Ascii string                                   TTYPE19 = 'Class   '           / Population (1)                                 END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                VBD-21 3420 °@ˆQì¿£×?¦ff¼#×
+>£×
+>¸Qì>™™š>uÂ¼õÂ¼#×
+ÿíÿ©ÿ¤TD             VCD-33 3337 [@w
+=¿®{?Ù™š>¸>£×
+>\)>™™š>™™š¼£×
+     ÿÖÿ“TD             VCD-43 6810 9@ˆQì¾Ü(ö?¦ff>™š>\)>k…>W
+=>B\<õÂ<#×
+ fÿaÿ§high-alpha     VCD-45 3283 Ý@‘™š¿hõÃ?€  ¾¨õÃ=£×
+>¸>B\=£×
+¼#×
+¾\)þ¬ÿ+ÿlow-alpha      VCD-51 4628 	@‰ë…¿¦ff?³33¾…¸>¸>B\>ž¸R>uÂ    ½ÌÌÍ
+ÿ ¯low-alpha      VCD-57 1633 ñ@ˆõÃ¿fff?™™š¾¨õÃ<õÂ=uÂ>#×
+<õÂ½#×
+¾B\þ·ÿÿälow-alpha      VCD-61 282  @‰ë…¿p¤?¦ff¾LÌÍ>W
+=>LÌÍ>\)>.{¼£×
+½ÌÌÍ%þä low-alpha      VG05-19     Þ@ˆQì¿—
+=?¦ff¾€  >8Qì>.{>…¸>\)½LÌÍ¾¸.þîÿ§low-alpha      	VG05-40     £@…p¤¿O\)?™™š=õÂ>³33>ž¸R>ž¸R>€  <õÂ     ‰ÿ&ÿªhigh-alpha     
+VG18-28     ü@¸¿Tzá?€  =uÂ>¸Qì>™™š>”zá>Š=q=LÌÍ    ÿãÿ*  high-alpha     VG18-39     ˜@†¸R¿±ë…?À  ½uÂ>³33>”zá>Ç®>ž¸R¼#×
+½LÌÍÿ?þÿÿíhigh-alpha     VG20-15     ‹@Š=q¿¾¸R?ÌÌÍ¾8Qì>aG®>k…>”zá>uÂ¼õÂ½LÌÍ ¡ÿÄÿ.(low-alpha)    VG46-31     @‡\)¿Tzá?³33¾¸>™š>¸>LÌÍ=áG®¼õÂ½õÂ þÊ 8low-alpha      VG63-26     ›@…Â¿Ç®?æff½£×
+>³33>úáH>½p¤>\)¼#×
+=uÂ Zþ´ +(high-alpha)   VG66-22     t@¸¿\(ö?fff¾Â\=£×
+=¸Qì>aG®=ÌÌÍ<õÂ¾\)þôÿA low-alpha      VG82-05     @Žff¿@  ?fff¾Ñë…=uÂ=LÌÍ>8Qì=£×
+<£×
+¾#×
+þ›ÿL 5low-alpha      VG112-43    º@€õÃ¿   ?¦ff½áG®>W
+=>™š>”zá>”zá    ¼£×
+ ‘ÿ‰þÛlow-alpha      VG112-44    »@ˆ  ¿¥¸?™™š½õÂ>aG®>LÌÍ>…¸>aG®¼#×
+¼£×
+ Šÿ“þÛlow-alpha      VG114-42    @Œ(ö¿ŒÌÍ?¦ff¾8Qì>8Qì>aG®>uÂ>¸¼£×
+½¸QìyÿCÿ°low-alpha      VG121-12    (@‡\)¿n{?³33¾™™š<õÂ=ÌÌÍ>B\=£×
+½#×
+¾B\þ¢ÿ6 clow-alpha      VG188-22    V@…Â¿¨õÃ?À  ½#×
+>Ç®>½p¤>½p¤>\)½#×
+¼#×
+ Áÿ Ghigh-alpha     VG159-50    ø@‹×
+¿n{?ŒÌÍ<£×
+>Â\>ž¸R>£×
+>uÂ<£×
+    ÿ6ÿ@ Chigh-alpha     VHD3567     £@€£×¿”zá?À  ¾uÂ>\)>.{>ž¸R>aG®½LÌÍ¾¸ ¤þýÿÍlow-alpha      VHD17820    @‡
+=¿+…?¦ff>¸>³33>™™š>Š=q>€  <£×
+<õÂ *ÿ«ÿºTD             VHD22879    @ˆ  ¿Y™š?¦ff=ÌÌÍ>¸Qì>£×
+>™™š>€          ÿ˜ÿ´ÿÛTD             VHD25704    ì@ˆQì¿Y™š?³33=£×
+>£×
+>€  >aG®>B\¼#×
+    ÿ‰ÿËÿþTD             VHD51754    ‡@‰G®¿zá?³33=áG®>¨õÃ>€  >uÂ>W
+=<£×
+<õÂ èÿj high-alpha     VHD59392    |@z=q¿ÌÌÍ?ó33¾™š>\)>Š=q>Â\>¨õÃ    ¼#×
+ sþÍÿç(low-alpha)    VHD76932    õ@„(ö¿^¸R?³33=ÌÌÍ>®{>\)>™™š>€  <#×
+    ÿ×ÿ³ LTD             VHD97320    x@†{¿•Â?ÌÌÍ=ÌÌÍ>®{>\)>…¸>k…½#×
+     PÿõÿâTD             VHD103723   2@†{¿LÌÍ?™™š¾.{=ÌÌÍ=áG®>W
+==õÂ½#×
+¾\)ÿ¸ÿ? :low-alpha       VHD105004   z@‰™š¿Që…?™™š½LÌÍ>.{>\)>.{=\)¼õÂ½uÂÿÔÿÿ¤low-alpha      !VHD106516   4@p¤¿.{?¦ff>#×
+>®{>™™š>…¸>€      <£×
+ >ÿÃÿÎTD             "VHD111980   ’@}p¤¿Š=q?À  <õÂ>¸Qì>ÌÌÍ>®{>€  ¼£×
+     ïÿRÿÇhigh-alpha     #VHD113679   (@\)¿&ff?³33>™š>½p¤>¨õÃ>£×
+>…¸<£×
+<õÂÿ þê high-alpha     $VHD114762  Aà@†¸R¿333?À  >\)>”zá>€  >aG®>B\<#×
+    ÿ¹ÿË @TD             %VHD120559   $@  ¿c×
+?ŒÌÍ=£×
+>¸Qì>\)>Š=q>\)=LÌÍ<õÂÿíÿÚÿâTD             &VHD121004   %@‹×
+¿333?¦ff=ÌÌÍ>¸Qì>ž¸R>£×
+>\)<£×
+<#×
+ Fÿ ihigh-alpha     'VHD126681   ƒ@Žff¿•Â?™™š½uÂ>Â\>×
+=>®{>€  <£×
+¼#×
+ÿñÿäÿÀTD             (VHD132475   @p£×¿¾¸R?À  ¼£×
+>Ñë…?\>½p¤>uÂ¼õÂ<#×
+ ,þ <(high-alpha)   )VHD148816   ¿@„(ö¿:áH?³33>\)>£×
+>”zá>€  >aG®    <õÂ bþüÿ·high-alpha     *VHD163810   }@‘ë…¿™™š?¦ff¾aG®>8Qì>.{>\)>aG®<£×
+½ÌÌÍ þÿ? %low-alpha      +VHD175179   Q@Š\¿&ff?™™š>¸>®{>\)>\)>€  <õÂ<#×
+ `ÿšÿíTD             ,VHD179626   Ú@„(ö¿…¸?ÌÌÍ=\)>³33>™™š>£×
+>…¸<#×
+½#×
+ [ÿ) -high-alpha     -VHD189558   ñ@s33¿\)?³33½#×
+>¸Qì>¸Qì>³33>…¸¼£×
+     Pÿ“ 0TD             .VHD193901   @‹…¿‹…?™™š¾Š=q>¸>8Qì>aG®=ÌÌÍ½#×
+¾\)ÿlÿÿ¾low-alpha      /VHD194598   6@Š\¿‹…?³33½õÂ>8Qì>8Qì>aG®>¸½#×
+½¸Qìÿ¿þõÿãlow-alpha      0VHD199289   ²@ˆõÃ¿…¸?¦ff=£×
+>¸Qì>ž¸R>Š=q>uÂ¼£×
+<£×
+ÿàÿÉÿíTD             1VHD205650   B@Š=q¿•Â?¦ff=¸Qì>¸Qì>£×
+>\)>k…¼£×
+    ÿŽÿ¹ TD             2VHD219617   æ@ˆõÃ¿¹™š?À  ¾.{>…¸>³33>ž¸R>LÌÍ½LÌÍ½£×
+ äÿRÿà(low-alpha)    3VHD222766   Ö@ˆ£×¿+…?LÌÍ=uÂ>³33>\)>ž¸R>\)=\)<#×
+ÿMÿS  high-alpha     4VHD241253   Ç@‰ë…¿ŒÌÍ?¦ff=#×
+>£×
+>ž¸R>™™š>uÂ¼£×
+¼#×
+ ÿ¶ [TD             5VHD284248   ÷@ˆ  ¿ÈõÃ?ÌÌÍ¾uÂ>aG®>k…>£×
+>”zá½\)½\)þ£ÿjÿº(low-alpha)    6NG05-36     }@‡\)¿p¤?³33¼#×
+>¨õÃ>½p¤>Â\>®{¼#×
+¼#×
+ÿ×þ×ÿÄhigh-alpha     7NG13-38     @‘G®¿aG®?fff=LÌÍ>³33>ž¸R>™™š>£×
+=uÂ     mÿq Yhigh-alpha     8NG15-23     ±@’=q¿ŒÌÍ?€  ¼£×
+>ÌÌÍ>¨õÃ>£×
+>¨õÃ=uÂ¼#×
+ ÿPÿÇhigh-alpha     9NG16-20     ù@hõÃ¿µÂ?À  ¾¸>aG®>¨õÃ>£×
+>B\½\)<#×
+ Ðÿq K(low-alpha)    :NG20-15     ¸@‹…¿´zá?ŒÌÍ¾k…>LÌÍ>™š>€  >aG®¼õÂ½LÌÍ ¡ÿÄÿ.(low-alpha)    ;NG21-22     @‡®¿‹…?³33¾…¸=¸Qì=\)>.{<õÂ¼£×
+¾#×
+ ÷þþÿálow-alpha      <NG24-13     )@‰ë…¿8Qì?€  =£×
+>®{>Š=q>”zá>€  <£×
+<#×
+ ¤ÿÚÿ€high-alpha     =NG24-25     Ä@w
+=¿³33?™™š¼õÂ>®{>Ñë…>£×
+>ž¸R½#×
+    ÿ;ÿ +(high-alpha)   >NG31-55     @‰™š¿ŒÌÍ?³33=\)>\)>¨õÃ>”zá>€  =LÌÍ<#×
+ÿéÿHÿÓhigh-alpha     ?NG49-19     Œ@ˆ  ¿ÌÍ?™™š=õÂ>™™š>Š=q>\)>k…=#×
+<£×
+ %ÿ :high-alpha     @NG53-41     ã@ˆ£×¿™™š?¦ff>k…>uÂ>uÂ>ž¸R>\)¼õÂ½¸QìÿáþÕÿjlow-alpha      ANG56-30     Æ@ˆQì¿c×
+?¦ff¾B\=ÌÌÍ=õÂ>.{=uÂ¼õÂ¾#×
+  þåÿËlow-alpha      BNG56-36     -@ˆõÃ¿p£×?³33½uÂ>B\>B\>€  >.{¼£×
+½£×
+ÿ—ÿ	 low-alpha      CNG57-07     ,@ˆ  ¾ð£×?ŒÌÍ=õÂ>®{>”zá>”zá>™™š=LÌÍ=LÌÍÿ·ÿ^ÿÎhigh-alpha     DNG74-32     Œ@‹…¿8Qì?ŒÌÍ=ÌÌÍ>½p¤>”zá>™™š>…¸<£×
+<£×
+ÿqÿi Jhigh-alpha     ENG75-31     z@€£×¿ƒ×
+?³33¾B\=õÂ>.{>ž¸R>B\½uÂ¾¸þýÿ2 mlow-alpha      FNG81-02     ã@†{¿0£×?¦ff=uÂ>€  >B\>LÌÍ=áG®¼#×
+½#×
+ÿQÿ7 high-alpha     GNG85-13     ü@Œ(ö¿
+=?€  >¸>¨õÃ>\)>Š=q>€  =#×
+<õÂÿHÿÕ #high-alpha     HNG87-13     Å@„(ö¿‹…?À  ¾€  =ÌÌÍ>8Qì>£×
+>aG®½#×
+½õÂÿ7þâ low-alpha      ING94-49     ý@  ¿LÌÍ?ŒÌÍ=uÂ>®{>£×
+>”zá>\)<õÂ<#×
+ ¬ÿ ÿþhigh-alpha     JNG96-20     •@¸¿c×
+?À  >¸>™™š>™™š>Š=q>€  ½uÂ    ÿ€ÿ¥ vhigh-alpha     KNG98-53     Ø@‡\)¿^¸R?¦ff½\)>LÌÍ>.{>€  =õÂ<#×
+½¸Qìÿdþùÿ low-alpha      LNG99-21     o@Œzá¿+…?fff=áG®>¨õÃ>Š=q>”zá>…¸=LÌÍ<£×
+ÿÀÿJ high-alpha     MNG119-64    %@…Â¿½p¤?À  ¾™š>€  >W
+=>½p¤>”zá¼#×
+½uÂ íþÝÿˆ(low-alpha)    NNG125-13    Ø@ˆõÃ¿·
+=?À  ¾.{>™™š>\)>™™š>LÌÍ½¸Qì½¸Qì ×ÿÿc(high-alpha)   ONG127-26    Ÿ@„zá¿®?™™š=ÌÌÍ>ž¸R>aG®>aG®>LÌÍ<õÂ     «ÿ­ÿÎhigh-alpha     PNG150-40    P@‚áH¿O\)?³33>\)>\)>B\>B\=õÂ<#×
+½£×
+ÿÁþÂ low-alpha      QNG161-73    b@€  ¿€  ?³33¾¸Qì>¸>¸>€  >\)½uÂ¾™š äÿ *low-alpha      RNG170-56    j@ƒ×
+¿k…?À  ½áG®>.{>\)>uÂ=õÂ¼£×
+½áG®ÿÌþßÿãlow-alpha      SNG172-61    i@
+=¿€  ?fff¾8Qì>#×
+>.{>…¸>#×
+=#×
+½ÌÌÍÿòþõ 9low-alpha      TNG176-53    “@\)¿«…?€  ¾¸Qì>™š>™š>€  >™š¼#×
+½õÂÿþñ =low-alpha      UNG180-24    t@†¸R¿±ë…?À  ¾\)>ž¸R>ž¸R>Ç®>ž¸R<õÂ½#×
+ oÿÿëhigh-alpha     VNG187-18    ç@Œzá¿+…?ŒÌÍ=uÂ>”zá>…¸>…¸>k…<£×
+     mÿ~ Hhigh-alpha     WNG192-43    @‰G®¿«…?À  ¾W
+=>B\>k…>¨õÃ>”zá½LÌÍ½¸Qìþ¹ÿ ÿñlow-alpha      XNG232-18    ·@\)¿n{?¦ff½uÂ>³33>®{>®{>…¸=LÌÍ     Hÿ chigh-alpha     YNHD148816   Ð@„zá¿333?³33>\)>£×
+>Š=q>…¸>LÌÍ<£×
+<£×
+ bþüÿ·high-alpha     ZNHD159482   i@‰ë…¿:áH?¦ff>™š>®{>£×
+>™™š>€  =LÌÍ<£×
+ÿ\ÿÑ _high-alpha     [NHD160693   R@ˆ£×¾úáH?ŒÌÍ=LÌÍ>uÂ>B\>W
+=>\)¼#×
+¼#×
+ ×ÿ— \high-alpha     \NHD177095   å@Œzá¿=p¤?fff=LÌÍ>Â\>™™š>ž¸R>\)<£×
+<#×
+ Œÿvÿéhigh-alpha     ]NHD179626   ß@†{¿€  ?³33=uÂ>¸Qì>£×
+>®{>…¸<õÂ½LÌÍ [ÿ) -high-alpha     ^NHD189558   ÷@s×
+¿\)?³33¼#×
+>Â\>Â\>¸Qì>Š=q¼#×
+<#×
+ Pÿ“ 0TD             _NHD193901   ,@¸¿ˆõÃ?³33¾™™š>.{>#×
+>k…=áG®½#×
+¾\)ÿlÿÿ¾low-alpha      `NHD194598   &@Š=q¿Š=q?³33½ÌÌÍ>k…>W
+=>aG®>\)¼õÂ½¸Qìÿ¿þõÿãlow-alpha      aNHD230409   Æ@‘G®¿Y™š?ŒÌÍ=LÌÍ>™™š>€  >…¸>…¸=uÂ     ¤ÿŽÿühigh-alpha     bNHD233511   v@‡\)¿Æff?¦ff¾B\>¸Qì>\)>ÌÌÍ>™™š½LÌÍ½LÌÍÿ}ÿ (high-alpha)   cNHD237822   ã@Š\¾æff?ŒÌÍ>™š>³33>…¸>\)>…¸=#×
+=LÌÍ Qÿ} ƒhigh-alpha     dNHD250792  Aq@
+=¿G®?ŒÌÍ¾8Qì>k…>¸>¨õÃ>…¸=#×
+½õÂ õÿ hlow-alpha                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
